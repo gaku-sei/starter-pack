@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noResolve": true,
+    "target": "es2015"
+  },
+  "exclude": [
+    "node_modules",
+    "server"
+  ],
+  "compileOnSave": false
+}

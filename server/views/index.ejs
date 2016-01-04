@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <link rel="stylesheet" href="/public/css/main.css">
+    <title>Title</title>
+  </head>
+  <body>
+    <div id="root"><%- content %></div>
+    <script type="text/javascript">
+      window.__INIT__ = JSON.parse(decodeURIComponent("<%- data %>"));
+    </script>
+    <script type="text/javascript" src="/public/js/bundle.js"></script>
+  </body>
+</html>
